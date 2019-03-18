@@ -17,6 +17,7 @@ const styles = {
         borderColor: '#ddd',
         backgroundColor: '#fff',
         justifyContent: 'flex-start',
+        flexDirection: 'row',
         position: 'relative'
     }
 }
