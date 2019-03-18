@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, ScrollView } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 
@@ -7,10 +7,10 @@ export default class App extends React.Component {
   render() {
     return (
       // <Header headerText="Albums Bitch" />
-      <ScrollView style={{flex: 1}}>
+      <View style={{flex:1}}>
         <Header headerText={'Albums'} />
         <AlbumList />
-      </ScrollView>
+      </View>
     );
   }
 }
